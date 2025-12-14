@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION BAR -->
+<header class="navbar">
+    <h2>
+        <a href="#home">Home</a> |
+        <a href="#about">About Me</a> |
+        <a href="#contact">Contact</a> |
+        <a href="#message">Message Me</a>
+    </h2>
+</header>
+
+<!-- MAIN LAYOUT -->
+<section id="main-content">
+
+    <!-- LEFT COLUMN -->
+    <div class="left-column">
+
+        <!-- PROFILE SECTION -->
+        <div id="home" class="section-box">
+            <img src="ANGELO.png" class="profile-img" alt="Profile Photo">
+            <h2 class="name-title">Angelo John C. Martirez</h2>
+            <p class="job-title">2nd Year BSIT Student / Beginner Programmer</p>
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <div id="contact" class="section-box">
+            <h3>Contact</h3>
+            <p>Email: 
+                <a href="mailto:angelomartirez16@gmail.com">
+                    angelomartirez16@gmail.com
+                </a>
+            </p>
+            <p>Phone: <a href="tel:09422068572">0942-206-8572</a></p>
+            <p>Course: BS Information Technology</p>
+        </div>
+
+        <!-- SKILLS SECTION -->
+        <div class="section-box">
+            <h3>Skills</h3>
+            <ul class="skills-list">
+                <li><strong>Basic Coding Skills</strong>
+                    <ul>
+                        <li>HTML (Beginner)</li>
+                        <li>CSS (Beginner)</li>
+                        <li>JavaScript (Basic)</li>
+                    </ul>
+                </li>
+                <li><strong>IT Skills</strong>
+                    <ul>
+                        <li>Basic Troubleshooting</li>
+                        <li>Computer Literacy</li>
+                    </ul>
+                </li>
+                <li><strong>Soft Skills</strong>
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Willing to Learn</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="right-column">
+
+        <!-- ABOUT SECTION -->
+        <div id="about" class="section-box">
+            <h2>About Me</h2>
+            <p class="about-text">
+                I am a 2nd year BSIT student currently learning the basics of programming.
+                I only know simple coding for now, but I am improving day by day.
+                I enjoy trying small coding activities, creating simple webpages,
+                and learning new IT concepts. My goal is to gain more skills and 
+                eventually become a successful IT professional.
+            </p>
+        </div>
+
+        <!-- LIFE EXPERIENCES -->
+        <div class="section-box">
+            <h3>Life Experiences</h3>
+            <p>
+                ✓ Joined school group projects involving simple webpages.<br>
+                ✓ Learned programming fundamentals in BSIT.<br>
+                ✓ Experienced debugging and fixing simple program errors.<br>
+                ✓ Helped classmates with basic computer tasks.<br>
+                ✓ Participated in IT-related school activities.<br>
+                ✓ Built simple HTML projects as part of Web Programming.<br>
+                ✓ Experienced balancing academic responsibilities and personal time.
+            </p>
+        </div>
+
+        <!-- MESSAGE FORM -->
+        <div id="message" class="section-box message-form">
+            <h2>Message Me</h2>
+            <form action="#" method="post">
+
+                <label>Name:</label><br>
+                <input type="text" name="name"><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email"><br><br>
+
+                <label>Message:</label><br>
+                <textarea name="message" rows="4"></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    WebProg - Web Programming 2025
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Profile</title>
+
+    <!-- BASIC DESIGN -->
+    <style>
+        body {
+            background-color: #f2f5f9;
+            font-family: Arial, sans-serif;
+        }
+
+        h2, h3 {
+            color: #003366;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 15px;
+            vertical-align: top;
+        }
+
+        img {
+            border: 3px solid #003366;
+            border-radius: 10px;
+        }
+
+        div {
+            margin-bottom: 20px;
+        }
+
+        form input, textarea {
+            width: 250px;
+            padding: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #003366;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0055aa;
+        }
+
+        .box {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ccd4dd;
+        }
+
+        .footer {
+            background-color: #003366;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- Simple Navigation -->
+<div class="box">
+    <h2>
+        <a href="#home">Home</a> |
+        <a href="#about">About Me</a>
+    </h2>
+</div>
+
+<hr>
+
+<!-- 2-Column Layout -->
+<table>
+    <tr>
+
+        <!-- LEFT COLUMN -->
+        <td>
+
+            <!-- HOME -->
+            <div id="home" class="box">
+                <img src="ANGELO.png" alt="My Profile Photo" width="200"><br><br>
+                <h2>Angelo John C. Martirez</h2>
+                <span>2nd Year BSIT Student / Beginner Programmer </span><br>
+            </div>
+
+            <hr>
+
+            <!-- CONTACT -->
+            <div class="box">
+                <h3>Contact</h3>
+                <p>Email: angelomartirez16@gmail.com</p>
+                <p>Phone: 0942-206-8572</p>
+                <p>Course: BS Information Technology</p>
+            </div>
+
+            <hr>
+
+            <!-- SKILLS -->
+            <div class="box">
+                <h3>Skills</h3>
+                <dl>
+                    <dt>Basic Coding Skills</dt>
+                    <dd>HTML (Beginner)</dd>
+                    <dd>CSS (Beginner)</dd>
+                    <dd>JavaScript (Basic)</dd>
+
+                    <dt>IT Skills</dt>
+                    <dd>Basic Troubleshooting</dd>
+                    <dd>Computer Literacy</dd>
+
+                    <dt>Soft Skills</dt>
+                    <dd>Teamwork</dd>
+                    <dd>Willing to Learn</dd>
+                </dl>
+            </div>
+
+        </td>
+
+        <!-- RIGHT COLUMN -->
+        <td>
+
+            <!-- ABOUT -->
+            <div id="about" class="box">
+                <h2>About Me</h2>
+                <p>
+                    I am a 2nd year BSIT student currently learning the basics of programming.
+                    I only know simple coding for now, but I am improving day by day.  
+                    I enjoy trying small coding activities, creating simple webpages,
+                    and learning new IT concepts. My goal is to gain more skills and 
+                    eventually become a successful IT professional.
+                </p>
+            </div>
+
+            <hr>
+
+            <!-- LIFE EXPERIENCES -->
+            <div class="box">
+                <h3>Life Experiences</h3>
+                <p>
+                    ✓ Joined school group projects involving simple webpages.<br>
+                    ✓ Learned computer basics and programming fundamentals in BSIT.<br>
+                    ✓ Experienced debugging and fixing simple program errors.<br>
+                    ✓ Helped classmates with typing, basic computer tasks, and formatting.<br>
+                    ✓ Participated in IT-related school activities and coding exercises.<br>
+                    ✓ Built simple HTML projects as part of Web Programming classes.<br>
+                    ✓ Experienced balancing academic responsibilities and personal time.
+                </p>
+            </div>
+
+            <hr>
+
+            <!-- MESSAGE FORM -->
+            <div class="box">
+                <h2>Message Me</h2>
+                <form action="submit" method="post">
+                    <p>
+                        Name:<br>
+                        <input type="text" name="name">
+                    </p>
+                    <p>
+                        Email:<br>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        Message:<br>
+                        <textarea name="message" rows="4" cols="35"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Send">
+                    </p>
+                </form>
+            </div>
+
+        </td>
+
+    </tr>
+</table>
+
+<hr>
+
+<!-- FOOTER -->
+<div class="footer">
+    <center><strong>WebProg - Web Programming 2025</strong></center>
+</div>
+
+</body>
+</html>
